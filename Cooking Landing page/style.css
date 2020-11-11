@@ -1,0 +1,182 @@
+.card-container{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly;
+}
+.nav{
+
+    opacity: 10;
+}
+
+.card img{
+
+    box-shadow: 10px 10px 20px 10px burlywood ;
+    z-index: 20px;
+}
+    
+
+body{
+
+    background-image: url(https://cdn.pixabay.com/photo/2015/08/25/03/50/background-906135_960_720.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    max-height: 100%;
+    
+    
+}
+
+.text{
+
+    text-align: center;
+    
+    
+}
+
+.text h1{
+
+    font-weight: bolder;
+    font-size: 90px;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-family: cursive;
+}
+
+.text p{
+    padding-left: 300px;
+    padding-right: 300px;
+    color:brown;
+}
+
+.card img{
+
+height: 140px;
+}
+
+
+@media screen and (max-width: 1400px){
+
+
+    .text h1{
+
+        font-size: 50px;
+    }
+
+    .text p{
+
+        padding-left: 200px;
+        padding-right: 200px;
+
+    }
+
+    .card-container{
+
+    display: flex;
+    justify-content: space-around;
+    justify-content: center; 
+    justify-content: space-evenly;
+
+    }
+
+    .card{
+
+        margin: 5px;
+
+    }
+
+
+}
+
+@media screen and (max-width: 420px){
+
+.text h1{
+
+    margin-top: 10px;
+
+}
+.text p{
+
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+.card-container{
+
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-around;
+    
+}
+
+
+}
+
+@media screen and (max-width: 600px){
+
+    .text h1{
+    
+        margin-top: 10px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .text p{
+    
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    
+    .card-container{
+    
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-content: space-around;
+    
+        padding-left: 87px;
+    }
+    .card{
+    
+        margin: 10px;
+    }
+    
+        
+    }
+    
+    @media screen and (max-width: 380px){
+
+        .text h1{
+        
+            margin-top: 10px;
+            padding-left: 100px;
+            padding-right: 100px;
+        }
+        .text p{
+        
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        
+        
+        .card-container{
+        
+            flex-wrap: wrap;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            justify-content: space-around;
+        
+            padding-left: 47px;
+        }
+        
+        
+    }   
