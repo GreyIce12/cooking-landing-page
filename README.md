@@ -1,2 +1,2 @@
 # cooking-landing-page
-Responsive Landing page that needs a little touch up on the text padding.
+Responsive Landing page built with boostrap, Html and CSS that needs a little touch up on the text padding.
